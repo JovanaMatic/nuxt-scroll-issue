@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+
+  &.no-smooth-scroll {
+    scroll-behavior: auto;
+  }
+
+  &.is-locked {
+    overflow: hidden;
+  }
+}
